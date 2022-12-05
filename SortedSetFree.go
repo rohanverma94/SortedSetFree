@@ -2,7 +2,8 @@ package SortedSetFree
 
 // DB agnostic SortedSets
 // This is a clean implementation of Sorted Set inspired from Jerry Wang's implementation
-// https://github.com/wangjia184/sortedset/blob/af6d6d227aa79e2a64b899d995ce18aa0bef437c/sortedset.go#L283
+// https://github.com/wangjia184/sortedset/blob/af6d6d227aa79e2a64b899d995ce18aa0bef437c/sortedset.go
+// Also check http://blog.wjin.org/posts/redis-internal-data-structure-skiplist.html
 import (
 	"strconv"
 )
